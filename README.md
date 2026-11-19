@@ -8,7 +8,7 @@ No more surprise "mouse died mid-game". BatteryBar sits just left of your tray i
 
 ## Download
 
-Grab **`BatteryBar-Setup-x.y.z.exe`** from the [Releases](../../releases) page and run it. No admin rights are needed. Windows 10 or 11 is required.
+Grab **`BatteryBar-Setup-x.y.z.exe`** from the [Releases](https://github.com/MacLong89/BatteryBar/releases/latest) page and run it. No admin rights are needed. Windows 10 or 11 is required.
 
 > Because the installer isn't code-signed yet, Windows SmartScreen may say "Windows protected your PC". Click **More info → Run anyway**.
 

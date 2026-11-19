@@ -377,7 +377,7 @@ sealed class OverlayForm : Form
     }
 
     // Fill these in before publishing; empty strings hide the menu items.
-    const string ProjectUrl = "";   // e.g. https://github.com/<you>/BatteryBar
+    const string ProjectUrl = "https://github.com/MacLong89/BatteryBar";
     const string TipUrl = "";       // e.g. https://ko-fi.com/<you>
 
     static void OpenUrl(string url)
