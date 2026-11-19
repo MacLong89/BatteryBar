@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <!-- .NET Framework 4.8 ships with every Windows 10/11 PC: nothing extra to install, tiny exe. -->
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AssemblyName>BatteryBar</AssemblyName>
+    <RootNamespace>BatteryBar</RootNamespace>
+    <ApplicationIcon>BatteryBar.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <DebugType>none</DebugType>
+
+    <Version>1.0.0</Version>
+    <Product>BatteryBar</Product>
+    <Title>BatteryBar</Title>
+    <Description>Shows wireless mouse, keyboard and headset battery on the Windows taskbar.</Description>
+    <Copyright>Copyright © 2026 BatteryBar contributors</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+
+</Project>
